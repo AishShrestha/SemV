@@ -1,13 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 form{
     width: 400px;
+    
+   
+    
 }
 input{
     width: 100%;
     padding: 10px;
+    
 }
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 62px;
+    margin: 10px;
+    
 }
+.top{
+    padding: 22px;
+    margin: 4px;}
+
+.top h1{
+font-weight: bold;
+font-size: 30px;
+margin: 0px;
+padding: 0px;
+}
+.top p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 90%;
+    height: 28px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="email"] {
+    width: 90%;
+    height: 28px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+input[type="password"] {
+    width: 90%;
+    height: 28px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.formElements {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formElements label {
+    margin-bottom: 5px;
+}
+
+.formElements input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
